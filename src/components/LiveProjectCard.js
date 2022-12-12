@@ -9,8 +9,11 @@ import {
     LinkOverlay,
     Button,
     Link,
-    HStack
+    HStack,
+    UnorderedList,
+    ListItem
 } from "@chakra-ui/react";
+import { liveProjects } from '../constant/inde';
 import { MotionBox } from '../utils/motion';
 import Paragraph from './Paragraph';
 import { SiGithub } from 'react-icons/si';
@@ -46,14 +49,25 @@ export const LiveProjectCard = ({ project }) => (
                     <Paragraph mt={'10px'}>
                         <Text>{project.summary}</Text>
                     </Paragraph>
-
+                    <Heading as="h2" fontSize="lg" fontWeight="600" color={"blue.400"} p='1'>Techstack</Heading>
+                   
+  
+  <Box  >
+  {project.techStack.map((p) => {
+                    return (
+                        <Button
+                            key={p}
+                           m={1}
+                           size='sm'
+                        >
+                       {p} 
+                        </Button>
+                    );
+                })}
+             
+                  </Box>
                     <HStack my={2} p={3}>
-                        {/* <Button
-                         
-                            alt='playstore'
-                            objectFit={'cover'}
-                            onClick={() => window.open(project.playstore)}
-                        ></Button> */}
+                    
                  <Button leftIcon={<SiGithub/>}  onClick={() => window.open(project.githublink)}>Github</Button>
               <Button colorScheme='blue'  leftIcon={<FaLink/>}  onClick={() => window.open(project.livelink)}>Go Live</Button>
                         {/* <Button

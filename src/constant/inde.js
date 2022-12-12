@@ -101,7 +101,8 @@ const liveProjects = [
         alt: 'Cartify',
         summary: 'Cartify is a full-fledged e-commerce website it is fully responsive and built with React JS. it implements a cart section with global context with adaptive pricing. This is a Individual Project build and executed in 5 days. functionality.',
         githublink: 'https://github.com/harshu878/Cartify-React-Ecommerce-Site',
-        livelink: 'https://candid-cassata-36c73b.netlify.app/'
+        livelink: 'https://candid-cassata-36c73b.netlify.app/',
+        techStack : ['Chakra UI', "Context API", "React JS","Faker JS",]
     },
     {
         name: 'Student Management System',
@@ -109,7 +110,8 @@ const liveProjects = [
         alt: 'SMS',
         summary: "This is a Student Management System, a CRUD application where you can add student details and You can also manage student database in your browser's local storage.",
         githublink: 'https://github.com/harshu878/student-management-system',
-        livelink: 'https://harshu878.github.io/student-management-system/'
+        livelink: 'https://harshu878.github.io/student-management-system/',
+        techStack : ['HTML', "CSS", "JavaScript", "Local Storage"]
     },
     {
         name: 'Lyst Clone',
@@ -117,7 +119,17 @@ const liveProjects = [
         alt: 'SMS',
         summary: "Lyst.com is an apparel and accesories e-commerce website. It has a vast range of brands and styles under its hood. The shopping experience on this website is seamless and intuitive due to the website's responsiveness and user-friendly UI.",
         githublink: 'https://github.com/harshu878/Lyst-Website-Clone',
-        livelink: 'https://harshu878.github.io/Lyst-Website-Clone/'
+        livelink: 'https://harshu878.github.io/Lyst-Website-Clone/',
+        techStack : ['HTML', "CSS", "JavaScript", "Local Storage"]
+    },
+    {
+        name: 'Nutrimeter',
+        imageUrl: 'https://i.postimg.cc/J7Z3j0jQ/sss-340.png',
+        alt: 'SMS',
+        summary: "Nutrimeter is a one stop solution for all health related information and to track your daily calories so It helps you to focus on your nutrition as a whole. it's a dynamic and responsive, full stack website built with react js, mongodb, express and nodejs.",
+        githublink: 'https://github.com/harshu878/nutrimeter',
+        livelink: 'https://nutrimeter.vercel.app/',
+        techStack : [ "React JS", "Styled-Components" ,"Chakra UI", "NodeJS", "Express JS", "MongoDB" ]
     }
 ]
 

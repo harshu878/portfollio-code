@@ -25,7 +25,7 @@ const ProfileSection = () => {
                         <Image
   borderRadius='full'
   boxSize='200px'
-  src='/profileresu.jpg'
+  src='/finalHarshPhoto2.jpg'
   alt='Harsh Upadhayay'
 
 />
